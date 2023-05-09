@@ -172,7 +172,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Demitri has a very very volumptuous ass",
+      "Feedback",
     name: "Madhav Bez",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +180,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I hit rihanna",
+      "Feedback",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Shaiyaan you have a beautiful smile",
+      "Feedback",
     name: "Demitri Lee",
     designation: "CTO",
     company: "456 Enterprises",
