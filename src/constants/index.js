@@ -171,13 +171,10 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "Feedback",
-    name: "Madhav Bez",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    courses:
+      "Relevant courses taken: ",
   },
+  /*
   {
     testimonial:
       "Feedback",
@@ -193,7 +190,7 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  },*/
 ];
 
 const projects = [
