@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  plasp,
+  Calle,
+  Kumon,
+  Usertesting,
   construction,
   jobit,
   testlegend,
@@ -116,65 +116,69 @@ const technologies = [
 
 const experiences = [
   {
-    title: "BIG DAWG HOMIE",
-    company_name: "YOUR MOM",
-    icon: starbucks,
+    title: "Tutor",
+    company_name: "Kumon",
+    icon: Kumon,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2017 - Dec 2018",
     points: [
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
+      "Collaborated with students to complete homework assignments, identify lagging skills, and correct weakness",
+      "Developed student condfidence through attentive instruction in Math and English, applying positive reinforcement strategies",
+      "Tutored struggling, average and advanced students in Math and English course materials",
     ],
   },
   {
-    title: "BIG DAWG HOMIE",
-    company_name: "YOUR MOM",
-    icon: tesla,
+    title: "Volunteer",
+    company_name: "PLASP Child Care",
+    icon: plasp,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2017 - June 2020",
     points: [
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
+      "Worked alongside staff to plan and develop a program of stimulating activities for over 50 children",
+      "Assisted and tutored students with homework assignments increasing average grade by 10%",
+      "Worked with a team to establish a safe and inclusive environment",
     ],
   },
   {
-    title: "BIG DAWG HOMIE",
-    company_name: "YOUR MOM",
-    icon: shopify,
+    title: "Shift Supervisor",
+    company_name: "Calle Mediterranean Fusion",
+    icon: Calle,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Apr 2022 - Present",
     points: [
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
+      "Handled customer needs and desires to ensure customer satisfaction",
+      "Delegated tasks and monitored 10 employee performances",
+      "Provided guidance and feedback to employees when in need",
+      "Handled technological responsibilities; POS system, Payment system, Designed and set up menu display",
     ],
   },
   {
-    title: "BIG DAWG HOMIE",
-    company_name: "YOUR MOM",
-    icon: meta,
+    title: "Application Tester",
+    company_name: "UserTesting",
+    icon: Usertesting,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jun 2020 - Present",
     points: [
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
-      "i touched bare people",
+      "Remote position testing websites and applications from companies such as Microsoft, Google and more",
+      "Underwent over 200 thorough evaluations, communicating with the companies in ways they can approve their application",
+      "Effectively ran a series small tests at multiple points when dealing with the application",
     ],
   },
 ];
 
 const testimonials = [
+  
   {
     courses:
-      "Relevant courses taken: ",
+      "Relevant courses taken:",
+    points: [
+      "first",
+      "second",
+      "third", 
+    ]
   },
-  /*
+
+/*
   {
     testimonial:
       "Feedback",
@@ -187,6 +191,24 @@ const testimonials = [
     testimonial:
       "Feedback",
     name: "Demitri Lee",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+
+
+  {
+    testimonials:
+      "Feedback",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonials:
+      "Feedback",
+    name: "Demitri",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
