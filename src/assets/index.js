@@ -1,4 +1,5 @@
 import logo from "/src/assets/Logo2.png";
+import shaiyaan from "/src/assets/shaiyaan.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
