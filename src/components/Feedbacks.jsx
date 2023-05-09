@@ -12,7 +12,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[1100px] w-full' //textbox
+    className='bg-black-200 p-10 rounded-3xl xs:w-[1100px] sm:mt-4 xs:mt-9 w-full' //textbox
   >
     <p className='text-white font-black text-[48px]'>Relevant Courses Taken</p>
 
@@ -37,12 +37,12 @@ const Feedbacks = () => {
   return (
     <div className={`-mt-12 bg-black-100 rounded-[20px]`}>
       <div
-        className={`bg-tertiary rounded-2xl sm:px-16 px-6 sm:py-8 py-10 min-h-[200px]`} //top block
+        className={`bg-tertiary rounded-2xl p-20 ${styles.padding} min-h-[180px] `} //top block
       >
         <motion.div variants={textVariant()}>{/*
           <p className={styles.sectionSubText}>Education</p>
           <h2 className={styles.sectionHeadText}>Computer Engineering McMaster University</h2>*/}
-          <p className='text-white font-black text-[48px] p-3'>
+          <p className='text-white font-black text-[48px] sm:px-3 -mt-12'>
             B.Eng Computer Engineering
           </p>
         </motion.div>

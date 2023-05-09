@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  construction,
   jobit,
-  tripguide,
+  testlegend,
   threejs,
 } from "../assets";
 
@@ -212,7 +212,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: testlegend,
     source_code_link: "https://github.com/Infinity606/Test-Legends",
   },
   {
@@ -233,7 +233,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: construction,
     source_code_link: "https://github.com/Infinity606",
   },
   {
@@ -254,7 +254,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: construction,
     source_code_link: "https://github.com/Infinity606",
   },
 ];
