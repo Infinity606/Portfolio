@@ -28,7 +28,6 @@ import Calle from "./company/Calle.png";
 import Kumon from "./company/Kumon.png";
 
 import construction from "./construction.png";
-import jobit from "./jobit.png";
 import testlegend from "./testlegend.png";
 
 export {
@@ -58,6 +57,6 @@ export {
   Calle,
   Kumon,
   construction,
-  jobit,
+  shaiyaan,
   testlegend,
 };

@@ -20,7 +20,6 @@ import {
   Kumon,
   Usertesting,
   construction,
-  jobit,
   testlegend,
   threejs,
 } from "../assets";
@@ -32,7 +31,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "project",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -261,6 +264,27 @@ const projects = [
   },
   {
     name: "Project 3",
+    description:
+      "im gonna work on something super cool dawg",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: construction,
+    source_code_link: "https://github.com/Infinity606",
+  },
+  {
+    name: "Project 4",
     description:
       "im gonna work on something super cool dawg",
     tags: [
