@@ -51,7 +51,7 @@ cd Portfolio
 npm install
 ```
 
-5. Start a local dev server at `http://localhost:8080`:
+5. Start a local dev server at `http://localhost:5173`:
 
 ```
 npm run serve
