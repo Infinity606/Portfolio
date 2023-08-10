@@ -59,9 +59,3 @@ npm run serve
 
 ## Notes
 
-
--   Contributions are welcome
-
-### License
-
-[MIT](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/LICENSE)
