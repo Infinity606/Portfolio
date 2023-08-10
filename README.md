@@ -2,7 +2,7 @@
 
 A simple portfolio built with Reactjs and Tailwind CSS.
 
-![Screenshot 2023-08-09 235912](https://github.com/Infinity606/Portfolio/assets/57471042/612db7d5-ae9f-42b8-b2ff-c1e2c2a7b274)
+![Screenshot 2023-08-09 235912](https://github.com/Infinity606/Portfolio/assets/57471042/57f0adcf-7b3d-4f66-9899-85d56753400f)
 
 ## Website URL
 
