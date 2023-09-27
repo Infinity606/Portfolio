@@ -27,6 +27,7 @@ import plasp from "./company/plasp.png";
 import Usertesting from "./company/Usertesting.png";
 import Calle from "./company/Calle.png";
 import Kumon from "./company/Kumon.png";
+import MCC from "./company/MCC.png"
 
 import construction from "./construction.png";
 import testlegend from "./testlegend.png";
@@ -57,6 +58,7 @@ export {
   Usertesting,
   Calle,
   Kumon,
+  MCC,
   construction,
   shaiyaan,
   testlegend,

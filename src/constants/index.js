@@ -19,6 +19,7 @@ import {
   Calle,
   Kumon,
   Usertesting,
+  MCC,
   construction,
   testlegend,
   threejs,
@@ -163,6 +164,18 @@ const experiences = [
     icon: Usertesting,
     iconBg: "#E6DEDD",
     date: "Jun 2020 - Present",
+    points: [
+      "Remote position testing websites and applications from companies such as Microsoft, Google and more",
+      "Underwent over 200 thorough evaluations, communicating with the companies in ways they can approve their application",
+      "Effectively ran a series small tests at multiple points when dealing with the application",
+    ],
+  },
+  {
+    title: "Mississauga Career College",
+    company_name: "MCC",
+    icon: MCC,
+    iconBg: "#383E56",
+    date: "April 2023 - September 2023",
     points: [
       "Remote position testing websites and applications from companies such as Microsoft, Google and more",
       "Underwent over 200 thorough evaluations, communicating with the companies in ways they can approve their application",
