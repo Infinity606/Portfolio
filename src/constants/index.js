@@ -7,7 +7,7 @@ import {
   photoshop,
   CPlus,
   html,
-  css,
+  css, 
   reactjs,
   tailwind,
   AfterEffects,
@@ -16,12 +16,13 @@ import {
   figma,
   aws,
   plasp,
-  Calle,
+  Calle, 
   Kumon,
   Usertesting,
   MCC,
   construction,
   testlegend,
+  testlegendP,
   threejs,
 } from "../assets";
 
@@ -252,7 +253,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: testlegend,
+    image: testlegendP,
+    vid: testlegend,
     source_code_link: "https://github.com/Infinity606/Test-Legends",
   },
   {

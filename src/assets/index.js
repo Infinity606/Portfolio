@@ -10,7 +10,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import aws from "./tech/aws.png";
-import figma from "./tech/figma.png";
+import figma from "./tech/figma.png";  
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -30,7 +30,8 @@ import Kumon from "./company/Kumon.png";
 import MCC from "./company/MCC.png"
 
 import construction from "./construction.png";
-import testlegend from "./testlegend.png";
+import testlegendP from "./testlegend.png";
+import testlegend from "./testlegend.gif";
 
 export {
   logo,
@@ -62,4 +63,5 @@ export {
   construction,
   shaiyaan,
   testlegend,
+  testlegendP,
 };

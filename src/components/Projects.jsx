@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -14,21 +14,28 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  vid,
   source_code_link,
 }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  const display = isHovered ? vid : image;
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div 
+    variants={fadeIn("up", "spring", index * 0.5, 0.75)} 
+    onMouseEnter={() => setIsHovered(true)}
+    onMouseLeave={() => setIsHovered(false)}
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[560px] w-full'
+        className={`bg-tertiary p-5 rounded-2xl sm:w-[560px] w-full`}
       >
         <div className='relative w-full h-[230px]'>
           <img
-            src={image}
+            src={display}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
