@@ -10,12 +10,17 @@ A simple portfolio built with Reactjs and Tailwind CSS.
 
 ## Features
 
--   [Tailwind CSS v3](https://tailwindcss.com) - a popular build tool for building front-end applications
+-   [Tailwind CSS v3](https://tailwindcss.com) - a popular utility-first CSS styling framework
+-   [ThreeJS](https://threejs.org/) - a powerful 3D graphics library for rendering and animating the 3D model
+-   [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) - a popular library for creating 3D graphics with ThreeJS in React
 -   Simple and responsive design
--   Utilizes OpenAI GPT-4 for natural language understanding
--   Extracts essential information and context from input text
--   Efficiently processes large articles without significant delays
--   Designed to handle a scalable number of users concurrently
+-   Reactive widgets
+-   Reactive 3D models
+-   Framer Motion transitions
+-   Reusable Components
+-   Projects display
+-   Scroll to top button
+-   Functional "contact me" section 
 
 
 ## Setup
