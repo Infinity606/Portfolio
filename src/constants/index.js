@@ -7,7 +7,7 @@ import {
   photoshop,
   CPlus,
   html,
-  css, 
+  css,
   reactjs,
   tailwind,
   AfterEffects,
@@ -16,15 +16,35 @@ import {
   figma,
   aws,
   plasp,
-  Calle, 
+  Calle,
   Kumon,
   Usertesting,
   MCC,
   construction,
   testlegend,
-  testlegendP,
   threejs,
+  github,
+  instagram,
+  linkedin,
 } from "../assets";
+
+const social = [
+  {
+    title: "Github",
+    url: "https://github.com/infinity606",
+    icon: github,
+  },
+  {
+    title: "LinkedIn",
+    url: "https://instagram.com/shaiyaan_",
+    icon: linkedin,
+  },
+  {
+    title: "Instagram",
+    url: "https://instagram.com/shaiyaan_",
+    icon: instagram,
+  },
+]
 
 export const navLinks = [
   {
@@ -32,7 +52,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "experience",
     title: "Experience",
   },
   {
@@ -126,7 +146,7 @@ const experiences = [
     title: "Tutor",
     company_name: "Kumon",
     icon: Kumon,
-    iconBg: "#383E56",
+    iconBg: "#e6e6e6",
     date: "Sept 2017 - Dec 2018",
     points: [
       "Collaborated with students to complete homework assignments, identify lagging skills, and correct weakness",
@@ -138,7 +158,7 @@ const experiences = [
     title: "Volunteer",
     company_name: "PLASP Child Care",
     icon: plasp,
-    iconBg: "#E6DEDD",
+    iconBg: "#e6e6e6",
     date: "Sept 2017 - June 2020",
     points: [
       "Worked alongside staff to plan and develop a program of stimulating activities for over 50 children",
@@ -150,7 +170,7 @@ const experiences = [
     title: "Shift Supervisor",
     company_name: "Calle Mediterranean Fusion",
     icon: Calle,
-    iconBg: "#383E56",
+    iconBg: "#e6e6e6",
     date: "Apr 2022 - Present",
     points: [
       "Handled customer needs and desires to ensure customer satisfaction",
@@ -163,7 +183,7 @@ const experiences = [
     title: "Application Tester",
     company_name: "UserTesting",
     icon: Usertesting,
-    iconBg: "#E6DEDD",
+    iconBg: "#e6e6e6",
     date: "Jun 2020 - Present",
     points: [
       "Remote position testing websites and applications from companies such as Microsoft, Google and more",
@@ -175,7 +195,7 @@ const experiences = [
     title: "Mississauga Career College",
     company_name: "MCC",
     icon: MCC,
-    iconBg: "#383E56",
+    iconBg: "#e6e6e6",
     date: "April 2023 - September 2023",
     points: [
       "Remote position testing websites and applications from companies such as Microsoft, Google and more",
@@ -253,8 +273,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: testlegendP,
-    vid: testlegend,
+    image: testlegend,
     source_code_link: "https://github.com/Infinity606/Test-Legends",
   },
   {
@@ -322,4 +341,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, social };

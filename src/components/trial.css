@@ -1,0 +1,14 @@
+.stacked-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding-right: 19rem;
+    transition: top 2s ease;
+  }
+  
+  /* Additional style to hide the nav when it's not stacked */
+  .hidden {
+    display: none;
+  }
+  

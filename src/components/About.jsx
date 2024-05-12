@@ -1,65 +1,28 @@
 import React from "react";
-import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import { shaiyaan } from "../assets";
+import { social } from "../constants";
 
-
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-    >
-      
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-      >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
-
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
-      </div>
-    </motion.div>
-  </Tilt>
-);
+import { resume, shaiyaanresume } from "../assets"
 
 const About = () => {
   return (
-    <>
+    <section className={`relative w-full h-screen mx-auto `}>
     <motion.div 
       variants={fadeIn("left", "spring", 0.1, 2)}
     >
-      <img 
-        src={shaiyaan} 
-        alt='logo' 
-        style={{ float: 'right', marginLeft: '1em', marginRight: "2.3em"}}
-        className='w-59 h-64 rounded-3xl' 
-      />
     </motion.div>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={`${styles.sectionHeadText} ${styles.paddingX} text-center `}>A Bit About Me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className={`mt-4 text-black text-[21px] max-w-3xl leading-[35px] text-center mx-auto ${styles.paddingX}`}
       >
         I'm a computer engineering student at McMaster University with experience 
         in python, C/C++, JavaScript, and expertise in frameProjects like React and Node.js. I'm 
@@ -68,12 +31,40 @@ const About = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="flex justify-center gap-10 mt-4 py-5">
+        {social.map((item, index) => (
+          <div key={index} className="mx-4 hover:scale-110 transition duration-300">
+            <a href={item.url} target="_blank" rel="noopener noreferrer">
+              <img src={item.icon} alt={item.title} className="w-10 h-10" />
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <div className="flex justify-center mt-4 py-5">
+        <div className="border-2 border-secondary rounded-lg hover:scale-105 hover:shadow-2xl transition duration-300">
+          <a href={shaiyaanresume} target="_blank" rel="noopener noreferrer">
+            <img src={resume} className={`w-80 h-30`}/>
+          </a>
+        </div>
+      </div>
+        
+
+      <div className={`absolute bottom-52 w-full flex justify-center items-center`}>
+        <a href='#experience'>
+          <div className={`w-[25px] h-[25px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 hover:scale-110 transition duration-300`}>
+          </div>
+        </a>
+      </div>
+      
+
+
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
-    </>
+      </div> */}
+    </section>
   );
 };
 
