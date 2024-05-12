@@ -36,7 +36,7 @@ const social = [
   },
   {
     title: "LinkedIn",
-    url: "https://instagram.com/shaiyaan_",
+    url: "https://www.linkedin.com/in/shaiyaan/",
     icon: linkedin,
   },
   {
