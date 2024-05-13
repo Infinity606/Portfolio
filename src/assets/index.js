@@ -35,8 +35,11 @@ import Calle from "./company/Calle.png";
 import Kumon from "./company/Kumon.png";
 import MCC from "./company/MCC.png"
 
-import construction from "./construction.png";
-import testlegend from "./testlegend.png";
+import construction from "./projects/construction.png";
+import testlegend from "./projects/testlegend.png";
+import rapidinsights from "./projects/rapidinsights.png"
+import titan from "./projects/titan.png"
+
 
 export {
   logo,
@@ -72,4 +75,6 @@ export {
   linkedin,
   resume,
   shaiyaanresume,
+  rapidinsights,
+  titan,
 };

@@ -22,7 +22,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className={`mt-4 text-black text-[21px] max-w-3xl leading-[35px] text-center mx-auto ${styles.paddingX}`}
+        className={`mt-4 text-black text-[21px] max-w-3xl leading-[35px] text-center mx-auto ${styles.paddingX}`} 
       >
         I'm a computer engineering student at McMaster University with experience 
         in python, C/C++, JavaScript, and expertise in frameProjects like React and Node.js. I'm 

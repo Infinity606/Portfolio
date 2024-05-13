@@ -26,6 +26,8 @@ import {
   github,
   instagram,
   linkedin,
+  rapidinsights,
+  titan,
 } from "../assets";
 
 const social = [
@@ -171,7 +173,7 @@ const experiences = [
     company_name: "Calle Mediterranean Fusion",
     icon: Calle,
     iconBg: "#e6e6e6",
-    date: "Apr 2022 - Present",
+    date: "Apr 2022 - April 2023",
     points: [
       "Handled customer needs and desires to ensure customer satisfaction",
       "Delegated tasks and monitored 10 employee performances",
@@ -196,7 +198,7 @@ const experiences = [
     company_name: "MCC",
     icon: MCC,
     iconBg: "#e6e6e6",
-    date: "April 2023 - September 2023",
+    date: "April 2023 - Present",
     points: [
       "Remote position testing websites and applications from companies such as Microsoft, Google and more",
       "Underwent over 200 thorough evaluations, communicating with the companies in ways they can approve their application",
@@ -258,7 +260,7 @@ const projects = [
   {
     name: "Test Legends",
     description:
-      "A farming rpg style game made using c++ in Game Maker Studio",
+      "A farming rpg style game made using c++ in Game Maker Studio, still under work!",
     tags: [
       {
         name: "C++",
@@ -277,45 +279,45 @@ const projects = [
     source_code_link: "https://github.com/Infinity606/Test-Legends",
   },
   {
-    name: "Project 2",
+    name: "Rapid Insights",
     description:
-      "I'm making something super cool",
+      "Website to summarize lengthy articles, improving content accessability utilizing GPT-4",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "GPT-4",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: construction,
+    image: rapidinsights,
     source_code_link: "https://github.com/Infinity606",
   },
   {
-    name: "Project 3",
+    name: "Titan Quest",
     description:
-      "I'm making something super cool",
+      "A submission for the NASA Space Apps 2023 hackathon. Made a educational space game alongside an informative webiste!",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "GameMaker Studio",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: construction,
+    image: titan,
     source_code_link: "https://github.com/Infinity606",
   },
   {

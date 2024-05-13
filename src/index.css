@@ -135,6 +135,9 @@
   -webkit-text-fill-color: transparent;
 }
 
+.noTypicalCursor::after {
+  display: none;
+}
 
 /* canvas- styles */
 .canvas-loader {

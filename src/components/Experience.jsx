@@ -22,7 +22,11 @@ const ExperienceCard = ({ experience }) => {
         color: "#0e1111",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #e6e6e6" }}
-      date={experience.date}
+      date={
+        <div className="text-[20px]">
+          {experience.date}
+        </div>
+      }
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
@@ -35,7 +39,7 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-black text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-black text-[26px] font-bold'>{experience.title}</h3>
         <p
           className='text-black text-[16px] font-semibold'
           style={{ margin: 0 }}
@@ -48,7 +52,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-black-100 text-[14px] pl-1 tracking-wider'
+            className='text-black-100 text-[16px] pl-1 tracking-wider'
           >
             {point}
           </li>
