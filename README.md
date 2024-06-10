@@ -2,11 +2,11 @@
 
 A simple portfolio built with Reactjs and Tailwind CSS.
 
-![Screenshot 2023-08-09 235912](https://github.com/Infinity606/Portfolio/assets/57471042/57f0adcf-7b3d-4f66-9899-85d56753400f)
+![image](https://github.com/Infinity606/Portfolio/assets/57471042/a6c45f7e-daaf-448f-8f5c-63860a7a93f4)
 
 ## Website URL
 
-[https://portfolio-6h0a6jqqt-infinity606.vercel.app/](https://portfolio-6h0a6jqqt-infinity606.vercel.app/)
+[[https://portfolio-6h0a6jqqt-infinity606.vercel.app/](https://portfolio-6h0a6jqqt-infinity606.vercel.app/)](https://portfolio-dal8bsd7v-infinity606s-projects.vercel.app/)
 
 ## Features
 
