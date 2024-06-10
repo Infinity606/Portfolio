@@ -6,7 +6,7 @@ A simple portfolio built with Reactjs and Tailwind CSS.
 
 ## Website URL
 
-[[https://portfolio-6h0a6jqqt-infinity606.vercel.app/](https://portfolio-6h0a6jqqt-infinity606.vercel.app/)](https://portfolio-dal8bsd7v-infinity606s-projects.vercel.app/)
+[[https://portfolio-6h0a6jqqt-infinity606.vercel.app/](https://portfolio-6h0a6jqqt-infinity606.vercel.app/)]
 
 ## Features
 
